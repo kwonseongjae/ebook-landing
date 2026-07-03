@@ -6,12 +6,19 @@
 <title>AI 블로그 자동화 실전 — Tistory를 24/7 안 죽게 무인 발행하는 법</title>
 <meta name="description" content="API가 사라진 Tistory를 AI 콘텐츠 + 브라우저 자동화로 매일 무인 발행하는 작동 시스템의 엔지니어링 기록."/>
 <link rel="stylesheet" href="style.css"/>
+<!-- GA4 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-DSYRZFVWNQ"></script>
+<script>
+window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
+gtag('js',new Date());
+gtag('config','G-DSYRZFVWNQ');
+</script>
 </head>
 <body>
 <header class="hero">
   <h1>AI로 글은 만들었는데, 자동 발행이 자꾸 죽나요?</h1>
   <p class="sub">봇 탐지(캡차)·세션 만료·발행 중 멈춤·중복 발행 — Tistory를 <strong>사람 없이 매일 안 죽게</strong> 굴리는 시스템을 어떻게 만들었는지, 코드 수준까지 정리한 엔지니어링 기록입니다.</p>
-  <a class="cta" href="#waitlist">출시 알림 + 얼리버드 30% 받기 →</a>
+  <a class="cta" href="#waitlist">무료 서론 챕터 받기 + 얼리버드 30% →</a>
   <p class="honest">※ 수익을 약속하는 책이 아닙니다. <em>3일 만에 멈추는 자동 블로그를 안 죽게 만드는 법</em>을 다룹니다.</p>
 </header>
 
@@ -50,14 +57,14 @@
 </section>
 
 <section id="waitlist" class="waitlist">
-  <h2>출시 알림 + 얼리버드 할인 받기</h2>
-  <p>대기자에게 출시 즉시 알림과 얼리버드 할인(30%)을 드립니다.</p>
+  <h2>무료 서론 챕터 + 출시 알림 + 얼리버드 30%</h2>
+  <p>지금 이메일을 남기면 <strong>① 서론 챕터 전체</strong>를 바로 보내드리고, <strong>② 출시 즉시 알림</strong>과 <strong>③ 얼리버드 30% 할인</strong>을 드립니다. 스팸 없이 출시·챕터 공개 때만 보냅니다.</p>
   <!-- WAITLIST_FORM_EMBED: 스티비 네이티브 구독 폼(list 9SUFauGp...) -->
   <div id="waitlist-form">
     <link rel="stylesheet" href="https://resource.stibee.com/subscribe/stb_subscribe_form_style.css">
     <div id="stb_subscribe">
       <form action="https://stibee.com/api/v1.0/lists/9SUFauGp1CskCYcdIjrWdtug-hvxLg==/public/subscribers" method="POST" target="_blank" accept-charset="utf-8" class="stb_form" name="stb_subscribe_form" id="stb_subscribe_form" data-lang="" novalidate>
-        <h1 class="stb_form_title">ebook 대기자 구독하기</h1>
+        <h1 class="stb_form_title">무료 서론 챕터 받기</h1>
         <fieldset class="stb_form_set">
           <label for="stb_email" class="stb_form_set_label">이메일 주소<span class="stb_asterisk">*</span></label>
           <input type="text" class="stb_form_set_input" id="stb_email" name="email" required="required">
