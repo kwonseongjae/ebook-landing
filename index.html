@@ -101,5 +101,16 @@ gtag('config','G-DSYRZFVWNQ');
 <footer>
   <p class="tos">브라우저 자동화는 각 플랫폼의 이용약관·정책을 확인하고 <strong>본인 책임</strong>으로 사용해야 합니다. 본 자료는 교육·엔지니어링 목적입니다.</p>
 </footer>
+<!-- 스티비 폼 제출 → GA4 전환 이벤트 -->
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var f = document.getElementById('stb_subscribe_form');
+  if (f) {
+    f.addEventListener('submit', function () {
+      if (window.gtag) gtag('event', 'sign_up', { method: 'stibee_waitlist' });
+    });
+  }
+});
+</script>
 </body>
 </html>
